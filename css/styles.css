@@ -9,7 +9,6 @@ body {
   display: grid;
   justify-content: center;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
 }
 
 form {
