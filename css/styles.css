@@ -1,0 +1,35 @@
+/* Page Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  display: grid;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  width: 65%;
+  padding: 4px 10px;
+  font-size: 12px;
+  border: lightgray 2px solid;
+  border-radius: 4px;
+  line-height: 2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 20px;
+}
