@@ -11,9 +11,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.main-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
 form {
   text-align: center;
   padding: 20px;
+  margin-bottom: 10px;
 }
 
 input {
@@ -28,7 +36,10 @@ input {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(3, 200px);
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  /*grid-template-columns: repeat(4, 200px);*/
+  /*grid-template-rows: repeat(3, 200px); */
   grid-gap: 20px;
+  margin: 0px;
 }
